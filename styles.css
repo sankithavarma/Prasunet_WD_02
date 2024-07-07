@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: peachpuff;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.stopwatch {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(242, 235, 235, 0.961);
+    text-align: center;
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: black;
+    text-shadow: 0 0 5px rgba(226, 221, 221, 0.5);
+}
+
+.buttons button {
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#startStopBtn {
+    background-color: #28a745;
+    color: white;
+}
+
+#startStopBtn:hover {
+    background-color: #218838;
+}
+
+#resetBtn {
+    background-color: #dc3545;
+    color: white;
+}
+
+#resetBtn:hover {
+    background-color: #c82333;
+}
+
+#lapBtn {
+    background-color: #007bff;
+    color: white;
+}
+
+#lapBtn:hover {
+    background-color: #0056b3;
+}
+
+#laps {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#laps li {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
